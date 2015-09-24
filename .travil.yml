@@ -1,8 +1,0 @@
-deploy:
-  provider: s3
-  access_key_id: "AKIAIPXKWIR64ZDPYMMA"
-  secret_access_key: "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"
-  bucket: "S3 Bucket"
-  skip_cleanup: true
-  local_dir: build
-  upload-dir: www
