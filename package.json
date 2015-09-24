@@ -1,0 +1,23 @@
+{
+  "name": "the-geek-speaks",
+  "version": "1.0.0",
+  "description": "The blog for RobbieTheGeek",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiethegeek/the-geek-speaks.git"
+  },
+  "author": "Robbie Holmes <robbiethegeek@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiethegeek/the-geek-speaks/issues"
+  },
+  "homepage": "https://github.com/robbiethegeek/the-geek-speaks#readme",
+  "devDependencies": {
+    "metalsmith": "^2.0.1",
+    "metalsmith-markdown": "^0.2.1"
+  }
+}
