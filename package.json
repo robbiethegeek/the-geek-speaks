@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/robbiethegeek/the-geek-speaks#readme",
   "devDependencies": {
+    "handlebars": "^4.0.3",
     "metalsmith": "^2.0.1",
-    "metalsmith-markdown": "^0.2.1"
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-templates": "^0.7.0"
   }
 }
