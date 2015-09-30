@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "metalsmith-layouts": {
+      "engine": "handlebars",
+      "partials": "layouts/partials",
+      
+    }
+  }
+}

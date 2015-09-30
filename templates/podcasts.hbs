@@ -1,0 +1,8 @@
+<h2>{{ title }}</h2>
+<ul>
+  {{#each podcast in podcasts}}
+    <li>
+      <a href={{ this.url }}>{{ this.name }}</a>
+    </li>
+  {{/each}}
+</ul>
