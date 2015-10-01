@@ -1,9 +1,12 @@
 {
+  "metadata": {
+    "title": "The Geek Speaks...",
+    "description": "One geeks views on everything..."
+  },
   "plugins": {
     "metalsmith-layouts": {
       "engine": "handlebars",
-      "partials": "layouts/partials",
-      
+      "partials": "layouts/partials"
     }
   }
 }
