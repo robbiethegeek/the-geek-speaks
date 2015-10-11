@@ -1,9 +1,10 @@
-<h2>{{ title }}</h2>
-<ul>
-  {{#each podcasts }}
-  <li>
-    <a href="{{ url }}">{{name}}</a>
-  </li>
-  {{/each}}
-
-</ul>
+<article>
+  <h3>Tech Podcasts</h3>
+  <ul>
+    {{#each tech-podcasts}}
+    <li>
+      <a href="{{ url }}">{{name}}</a> <a href="{{ itunes }}"><i class="fa fa-apple fa-lg"></i></a> | <a href="{{ rss }}"><i class="fa fa-rss-square fa-lg"></i></a>
+    </li>
+    {{/each}}
+  </ul>
+</article>
