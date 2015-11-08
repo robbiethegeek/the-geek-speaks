@@ -1,10 +1,28 @@
 <article>
-  <h3>Tech Podcasts</h3>
-  <ul>
-    {{#each tech-podcasts}}
-    <li>
-      <a href="{{ url }}">{{name}}</a> <a href="{{ itunes }}"><i class="fa fa-apple fa-lg"></i></a> | <a href="{{ rss }}"><i class="fa fa-rss-square fa-lg"></i></a>
-    </li>
-    {{/each}}
-  </ul>
+  <section>
+    <h3>Tech Podcasts</h3>
+    <ul>
+      {{#each tech-podcasts}}
+      <li>
+        <a href="{{ url }}">{{name}}</a>
+        <a href="{{ itunes }}"><i class="fa fa-apple fa-lg"></i></a> |
+        <a href="{{ rss }}"><i class="fa fa-rss-square fa-lg"></i></a> |
+        <a href="https://twitter.com/{{ twitter }}"><i class="fa fa-twitter-square fa-lg"></i></a>
+      </li>
+      {{/each}}
+    </ul>
+  </section>
+  <section>
+    <h3>Entertainment Podcasts</h3>
+    <ul>
+      {{#each entertainment-podcasts}}
+      <li>
+        <a href="{{ url }}">{{name}}</a>
+        <a href="{{ itunes }}"><i class="fa fa-apple fa-lg"></i></a> |
+        <a href="{{ rss }}"><i class="fa fa-rss-square fa-lg"></i></a> |
+        <a href="https://twitter.com/{{ twitter }}"><i class="fa fa-twitter-square fa-lg"></i></a>
+      </li>
+      {{/each}}
+    </ul>
+  </section>
 </article>
