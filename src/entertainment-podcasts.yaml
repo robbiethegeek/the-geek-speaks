@@ -1,0 +1,15 @@
+- name: Alison Rosen Is Your New Best Friend
+  url: http://alisonrosen.com/
+  itunes: http://itunes.apple.com/us/podcast/alison-rosen-is-your-new-best/id379453196
+  rss: http://alisonrosen.com/category/podcast/feed/
+  twitter: ARIYNBF
+- name: Doug Loves Movies
+  url: http://douglovesmovies.com/
+  itunes: http://itunes.apple.com/us/podcast/doug-loves-movies/id281816774
+  rss: http://feeds.feedburner.com/DougLovesMovies
+  twitter: DougBenson
+- name: Nerd Poker
+  url: http://www.earwolf.com/show/nerd-poker/
+  itunes: https://itunes.apple.com/us/podcast/nerd-poker/id582573564
+  rss: http://rss.earwolf.com/nerd-poker
+  twitter: NerdPokerPod

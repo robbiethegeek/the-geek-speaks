@@ -5,7 +5,8 @@
   },
   "plugins": {
     "metalsmith-metadata": {
-      "tech-podcasts": "tech-podcasts.yaml"
+      "tech-podcasts": "tech-podcasts.yaml",
+      "entertainment-podcasts": "entertainment-podcasts.yaml"
     },
     "metalsmith-layouts": {
       "engine": "handlebars",
